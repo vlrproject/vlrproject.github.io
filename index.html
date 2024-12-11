@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Speeding Up Dynamic Scene Reconstruction</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-cuCtgP1w1FqLZacBtHzGjXeNMXYu9pogO0iJlgpO4+XT4I3tSRkVYRTtId6UTbd" crossorigin="anonymous">
+
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Speeding Up Dynamic Scene Reconstruction</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <h4>Aditya Joglekar, Sahil Jain, Joel Julin</h4></span>
+              <h4>16-824 Fall 2024 Course Project, Carnegie Mellon University</h4></span>
+            <span class="author-block">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="subtitle has-text-centered">
+         On this webpage, we present additional qualitative results on three scenes from HyperNeRF (chickchicken, cut-lemon, split-cookie).
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Qualitative Results</h2>
+        <div class="content has-text-justified">
+          <p>
+            The left video shows the result from DeformableGS, the right video shows the result from our method.
+          </p>
+          <div class="columns is-multiline">
+            <div class="column is-one-third">
+              <img src="hyper/chickchicken.gif" alt="Jumping Jacks w/o Ldiff" style="width: 100%;">
+              <p style="text-align: center;">chickchicken</p>
+            </div>
+            <div class="column is-one-third">
+              <img src="hyper/cut-lemon.gif" alt="Jumping Jacks w/ Ldiff" style="width: 100%;">
+              <p style="text-align: center;">cut-lemon</p>
+            </div>
+            <div class="column is-one-third">
+              <img src="hyper/split-cookie.gif" alt="Lego w/o Lnorm" style="width: 100%;">
+              <p style="text-align: center;">split-cookie</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content has-text-centered">
+          <p>
+            Website source from <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
